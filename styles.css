@@ -37,3 +37,82 @@ a {
     gap: 20px;
     font-size: 18px;
 }
+
+.topspot {
+    background: #1f2937;
+    display: flex;
+    padding: 100px 200px;
+    gap: 48px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 40%;
+}
+
+.herotext h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.signup {
+    background: #3882f6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.herotext .signup {
+    margin-top: 15px;
+}
+
+.imageplaceholder {
+    background: grey;
+    color: white;
+    display:flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    padding: 50px 200px;
+}
+
+.cardbox h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display:flex;
+    padding: 50px 200px;
+    gap: 75px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card p {
+    width: 150px;
+}
+
+.box {
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+}
