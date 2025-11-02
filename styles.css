@@ -140,3 +140,28 @@ a {
     font-style: normal;
     align-self: flex-end;
 }
+
+.ctasection {
+    display: flex;
+    padding: 50px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabox {
+    display: flex;
+    background: #3882f6;
+    padding: 50px 50px;
+    border-radius: 12px;
+    color: #f9faf8;
+    gap: 250px;
+}
+
+.ctatext {
+    align-self: flex-start;
+}
+
+.ctabox .signup  {
+    align-self: flex-end;
+    border: 2px solid #f9faf8;
+}
